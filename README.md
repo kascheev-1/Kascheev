@@ -3,8 +3,6 @@
 
 ![](https://github.com/kascheev-1/Kascheev/blob/main/cat.gif)
 
-## Быстрый старт
-
 Перед началой установки, нужно установить Linux Oracle на VirtualBox, для этого нужно:
 
 Иметь образ Linux
