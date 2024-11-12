@@ -1,4 +1,4 @@
-# Kascheev
+![изображение](https://github.com/user-attachments/assets/0c1b9825-4a30-4446-9989-58e6f76cb26e)# Kascheev
 # Docker
 
 ![image](https://github.com/kascheev-1/Kascheev/blob/main/cat-computer.gif)
@@ -108,9 +108,6 @@
 
 ![изображение](https://github.com/user-attachments/assets/ce4bac0a-e6ff-41ca-b93e-f78b7eb34fbc)
 
-![изображение](https://github.com/user-attachments/assets/cf831271-4678-430e-948e-4e216a1e41b5)
-
-
 19.` sudo vi docker-compose.yaml`
 
 •команда открывает файл docker-compose.yaml в текстовом редакторе vi с правами суперпользователя, что позволяет вам редактировать его содержимое.
@@ -121,15 +118,11 @@
 
 • Что бы сохранить что-то в этом документе нажимаем Esc пишем :wq! В этом текставом редакторе мы должны поставить node-exporter после services
 
-![image](https://github.com/user-attachments/assets/3b7cdd9c-0a33-4d84-ae8d-d56f99fa35ac)  
-
 20. `sudo vi prometheus.yaml `
 
 • команда открывает файл prometheus.yaml в текстовом редакторе vi с правами суперпользователя.
 
 • /mnt/common_volume/swarm/grafana/config/prometheus.yaml - исправить targets: на exporter:9100,
-
-![image](https://github.com/user-attachments/assets/61c52dfe-6091-40d1-a314-80d7bca39245)
 
 ## Grafana
 
@@ -152,7 +145,7 @@
     * Find and import dashboards for common applications at grafana.com/dashboards: 1860 //ждем кнопку Load
     * Select Prometheus ждем кнопку "Import"
 
-![image](https://github.com/user-attachments/assets/68774952-a375-4e77-8b1e-a61d1210d443)
+![изображение](https://github.com/user-attachments/assets/e576a1be-d4c3-4755-bc16-d5855d517ec0)
 
 ## VictoriaMetrics
 
@@ -189,8 +182,6 @@
 • команда выводит текст, который может быть использован для определения метрики в формате, совместимом с Prometheus
 
 • команда выводит информацию о типе и значении этой метрики в формате, который может быть использован системой мониторинга Prometheus.
-
-![image](https://github.com/user-attachments/assets/45c35e91-2867-4a03-8d27-262c3a7ac9da)
 
 Значение 0 меняем на любое другое
 
