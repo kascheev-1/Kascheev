@@ -1,7 +1,7 @@
 # Kascheev
 # Docker
 
-![image](https://github.com/kascheev-1/Kascheev/blob/main/cat-computer.gif)
+![](https://github.com/kascheev-1/Kascheev/blob/main/cat.gif)
 
 ## Быстрый старт
 
