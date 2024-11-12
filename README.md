@@ -17,17 +17,21 @@
 1. `sudo yum install wget`
 
 • устанавливает утилиту wget на вашу систему
+
 ![изображение](https://github.com/user-attachments/assets/4572afee-f959-4372-8e4a-1ad9d0f968c1)
+
 
 2. `sudo wget -P /etc/yum.repos.d/ https://download.docker.com/linux/centos/docker-ce.repo`
 
 • Скачиваем файл репозитория
-![image](https://github.com/user-attachments/assets/8974b604-8238-4c21-aa7e-33faa8bc1952)
+
+![изображение](https://github.com/user-attachments/assets/643caac8-9e46-415b-880f-0b8da7446a1c)
 
 3. `sudo yum install docker-ce docker-ce-cli containerd.io`
 
 • Устанавливаем docker
-![image](https://github.com/user-attachments/assets/ffdd913c-33d2-4489-a59c-581928dbc968)
+
+![изображение](https://github.com/user-attachments/assets/517659df-7e4d-4f74-b014-4d02ef1142f1)
 
 4. `sudo systemctl enable docker --now`
 
@@ -41,13 +45,14 @@
 
 • Объявление переменной COMVER, полученной в результате curl запроса, хранящей в себе номер последней
 версии Docker Compose
-![image](https://github.com/user-attachments/assets/1a319c45-0467-4354-80ae-8adb82d8ad57)
+
+![изображение](https://github.com/user-attachments/assets/d1c0406f-6879-4638-90c8-87787f7ea1ac)
 
 7. `sudo curl -L "https://github.com/docker/compose/releases/download/$COMVER/docker-compose-$(uname -s)-$(uname -m)" -o /usr/bin/docker-compose`                        
 
 • Теперь скачиваем скрипт docker-compose последней версии, используя объявленную ранее переменную и помещаем его в каталог /usr/bin
 
-![image](https://github.com/user-attachments/assets/6f4a7ffc-ff0c-4155-a082-07d7d0efc5e5)
+![изображение](https://github.com/user-attachments/assets/5fad1638-b5db-42e5-a3bc-89a1abcdd806)
 
 8. `sudo chmod +x /usr/bin/docker-compose`
 
@@ -57,14 +62,15 @@
 
 • Проверка установленной версии Docker Compose.
 
-![image](https://github.com/user-attachments/assets/5a7024a8-b070-489c-a21b-1799118f110a)
+![изображение](https://github.com/user-attachments/assets/8495485c-0c15-4590-b556-7c265306b264)
 
 • Можно скачать git прямо из командной строки прописав Y
 
 10. `git clone https://github.com/skl256/grafana_stack_for_docker.git`
 
 • выдаст ошибку и предложит скачать git, согласиться и продолжить
-![image](https://github.com/user-attachments/assets/b469b556-d8b7-467c-a1d9-125487dcafd8)
+
+![изображение](https://github.com/user-attachments/assets/f946153f-376b-41c0-b0fe-f70ae9c74aff)
 
 11. `cd grafana_stack_for_docker`
     
@@ -97,9 +103,13 @@
 18.` sudo docker compose up -d`
 
 • команда создает и запускает контейнеры в фоновом режиме, используя конфигурацию из файла docker-compose.yml, с правами суперпользователя.
-![image](https://github.com/user-attachments/assets/a58b0533-185d-49d2-b5ae-f48ce5ec261f)
 
-![image](https://github.com/user-attachments/assets/929f2f13-f8e2-4a24-8bef-a423f785b144)
+![изображение](https://github.com/user-attachments/assets/af7d90e0-e394-4193-9e13-164bfd63a137)
+
+![изображение](https://github.com/user-attachments/assets/ce4bac0a-e6ff-41ca-b93e-f78b7eb34fbc)
+
+![изображение](https://github.com/user-attachments/assets/cf831271-4678-430e-948e-4e216a1e41b5)
+
 
 19.` sudo vi docker-compose.yaml`
 
@@ -113,15 +123,12 @@
 
 ![image](https://github.com/user-attachments/assets/3b7cdd9c-0a33-4d84-ae8d-d56f99fa35ac)  
 
-![image](https://github.com/user-attachments/assets/c2c56867-dfd8-4cd8-aeec-fc2332f54861)
-
 20. `sudo vi prometheus.yaml `
 
 • команда открывает файл prometheus.yaml в текстовом редакторе vi с правами суперпользователя.
 
 • /mnt/common_volume/swarm/grafana/config/prometheus.yaml - исправить targets: на exporter:9100,
 
-![image](https://github.com/user-attachments/assets/92943bf8-6331-4269-a1d2-f3dc44080577)
 ![image](https://github.com/user-attachments/assets/61c52dfe-6091-40d1-a314-80d7bca39245)
 
 ## Grafana
