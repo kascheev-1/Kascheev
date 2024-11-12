@@ -1,6 +1,8 @@
 # Kascheev
 # Docker
 
+![image](https://github.com/kascheev-1/Kascheev/blob/main/cat-computer.gif)
+
 ## Быстрый старт
 
 * Для docker compose
