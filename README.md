@@ -1,4 +1,4 @@
-![изображение](https://github.com/user-attachments/assets/0c1b9825-4a30-4446-9989-58e6f76cb26e)# Kascheev
+# Kascheev
 # Docker
 
 ![image](https://github.com/kascheev-1/Kascheev/blob/main/cat-computer.gif)
